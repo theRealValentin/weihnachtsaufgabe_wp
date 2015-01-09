@@ -11,6 +11,20 @@ namespace AGameOfMemory
 
         private bool _show;
 
+        private bool _solved;
+
+        public bool solved
+        {
+            get
+            {
+                return _solved;
+            }
+            set
+            {
+                _solved = value;
+            }
+        }
+
         public int id
         {
             get
